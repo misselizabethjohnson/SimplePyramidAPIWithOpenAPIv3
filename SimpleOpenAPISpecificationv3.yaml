@@ -1,0 +1,18 @@
+openapi: "3.0.0"
+info:
+  version: "1.0.0"
+  title: Projects API
+paths:
+  /projects:
+    get:
+      responses:
+        200:
+          description: Get projects
+        400:
+          description: Bad Request
+    post:
+      responses:
+        200:
+          description: Successfully added
+        400: 
+          description: Bad request
